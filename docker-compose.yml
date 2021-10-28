@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  backend:
+    container_name: ted_asset_backend
+    image: tegfleettrackeracr.azurecr.io/assetmanagementapi:0.0.2
+    ports:
+      - '4000:4000'
