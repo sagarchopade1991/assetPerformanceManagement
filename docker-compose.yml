@@ -5,3 +5,8 @@ services:
     image: tegfleettrackeracr.azurecr.io/assetmanagementapi:0.0.2
     ports:
       - '4000:4000'
+  frontend:
+    container_name: ted_asset_frontend
+    image: tegfleettrackeracr.azurecr.io/assetmanagementui:0.0.1
+    ports:
+      - '62195:62195'
